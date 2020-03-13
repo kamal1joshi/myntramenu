@@ -1,21 +1,10 @@
 <?xml version="1.0"?>
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
-    <!-- <head>
-        <css src="css/custom.css"/>  
-        <css src="css/bootstrap.min.css"/> 
-        <css src="css/psd.css"/> 
-    </head> -->
     <body>
-        <!--phone no. printed static all other nav. bar items coming from CMS admin-->
-      
-       
-        
         <move element="navigation.sections" destination="header-wrapper" />
          <referenceContainer name="header-wrapper">
             <block class="Magento\Wishlist\Block\Link" name="wish-list-link-custom" after="minicart" template="Magento_Theme::link.phtml" />
         </referenceContainer>
         <referenceContainer name="header.panel.wrapper" remove="true" />
-        
-        
     </body>
 </page>
