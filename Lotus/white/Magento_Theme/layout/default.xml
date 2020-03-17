@@ -3,7 +3,7 @@
     <body>
         <move element="navigation.sections" destination="header-wrapper" />
         <referenceContainer name="header-wrapper">
-            <block class="Magento\Wishlist\Block\Link" name="wish-list-link-custom" after="minicart" template="Magento_Theme::link.phtml" />
+            <block class="Magento\Wishlist\Block\Link" name="wish-list-link" after="minicart" template="Magento_Theme::link.phtml" />
         </referenceContainer>
         <referenceContainer name="header.panel.wrapper" remove="true" />
         <referenceContainer name="page.top">

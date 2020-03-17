@@ -11,10 +11,10 @@
             <block class="Magento\Customer\Block\Account\RegisterLink" name="register-link" >
                 <arguments>
                     <argument name="label" xsi:type="string" translate="true"></argument>
-                    <argument name="class" xsi:type="string">yourclass</argument>
+                    <argument name="class" xsi:type="string">accountdetails</argument>
                 </arguments>
             </block>
         </referenceBlock>
-        <move element="register-link" destination="header-wrapper" after="wish-list-link-custom"/>
+        <move element="register-link" destination="header-wrapper" after="wish-list-link"/>
     </body>
 </page>
